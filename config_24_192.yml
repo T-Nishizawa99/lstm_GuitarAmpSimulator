@@ -1,0 +1,13 @@
+---
+input_timesteps: 17280
+output_timesteps: 1920
+batch_size: 16
+max_epochs: 1000
+patience: 100
+train_data:
+  - [./data/data_24_192/train_x1.wav, ./data/data_24_192/train_y1.wav]
+  - [./data/data_24_192/train_x2.wav, ./data/data_24_192/train_y2.wav]
+  - [./data/data_24_192/train_x3.wav, ./data/data_24_192/train_y3.wav]
+  - [./data/data_24_192/train_x4.wav, ./data/data_24_192/train_y4.wav]
+val_data:
+  - [./data/data_24_192/val_x.wav, ./data/data_24_192/val_y.wav]
