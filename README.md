@@ -9,7 +9,8 @@ https://qiita.com/coz-a/items/aeab3c52e3f12ba52a8b
 の2種類に変更しました．
 スライディングウィンドウを110ms->100msにしました．
 
-使い方
+使い方：
+
 google colabolatoryでdriveを同期させた後に上から順に実行していくだけです．
 config_16_48.yml,config_24_192.yml
 に学習の際に使用する変数やデータのディレクトリが書かれています．
